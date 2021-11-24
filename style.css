@@ -1,0 +1,30 @@
+.header{
+    color: rgb(97, 6, 29);
+    margin-top:8%;
+    text-align: center;
+}
+
+.item{
+    width: 60px;
+    height: 60px;
+    background-color: rgb(56, 5, 116);
+    color: cornsilk;
+    font-size: large;
+}
+
+.buttons{
+    margin-top:1%;
+    text-align: center;
+}
+
+.tiles{
+    text-align: center;
+}
+
+.controllers{
+    width: 100px;
+    height: 40px;
+    background-color: rgb(121, 34, 0);
+    color: cornsilk;
+    font-size: large;
+}

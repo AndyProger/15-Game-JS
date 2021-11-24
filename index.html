@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>15 Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background: linear-gradient(45deg, #d88853, #7cc0e0); min-height: 97vh;">
+    
+    <h2 class="header">15 Game</h2>
+
+    <form class = "tiles" name = "items">
+        <input class="item" type = "button" value = "1" onclick = "clickItem(0)">
+        <input class="item" type = "button" value = "2" onclick = "clickItem(1)">
+        <input class="item" type = "button" value = "3" onclick = "clickItem(2)">
+        <input class="item" type = "button" value = "4" onclick = "clickItem(3)">
+        <br>
+        <input class="item" type = "button" value = "5" onclick = "clickItem(4)">
+        <input class="item" type = "button" value = "6" onclick = "clickItem(5)">
+        <input class="item" type = "button" value = "7" onclick = "clickItem(6)">
+        <input class="item" type = "button" value = "8" onclick = "clickItem(7)">
+        <br>
+        <input class="item" type = "button" value = "9" onclick = "clickItem(8)">
+        <input class="item" type = "button" value = "10" onclick = "clickItem(9)">
+        <input class="item" type = "button" value = "11" onclick = "clickItem(10)">
+        <input class="item" type = "button" value = "12" onclick = "clickItem(11)">
+        <br>
+        <input class="item" type = "button" value = "13" onclick = "clickItem(12)">
+        <input class="item" type = "button" value = "14" onclick = "clickItem(13)">
+        <input class="item" type = "button" value = "15" onclick = "clickItem(14)">
+        <input class="item" type = "button" value = " " onclick = "clickItem(15)">
+        <br>
+    </form>
+
+    <form class="buttons">
+        <input class="controllers" type = "button" value = "Play" onclick = "newGame()">
+        <input class="controllers" type = "button" value = "Solve" onclick = "solve()">
+        <input class="controllers" type = "button" value = "Reset" onclick = "res()">
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
